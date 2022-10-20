@@ -10,22 +10,23 @@ body {
     background-size: cover;
 }
 
-h2{
+h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: center;
 }
 
-.clock{
+.clock {
     display: flex;
 }
 
-.clock div{
+.clock div {
     margin: 5px;
     position: relative;
 
 }
-.clock span{
+
+.clock span {
     width: 100px;
     height: 80px;
     background: rgb(98, 197, 192);
@@ -35,11 +36,11 @@ h2{
     justify-content: center;
     align-items: center;
     font-size: 50px;
-  
-    text-shadow: 2px 4px rgba(red, green,alpha);
+
+    text-shadow: 2px 4px rgba(red, green, alpha);
 }
 
-.clock .text{
+.clock .text {
     height: 40px;
     font-size: 15px;
     text-align: center;
@@ -48,5 +49,14 @@ h2{
     background: rgb(105, 148, 151);
     opacity: 0.8;
     margin-top: 3px;
-    
+
+}
+
+.clock #ampm {
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: green;
 }
